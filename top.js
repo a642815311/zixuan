@@ -35,11 +35,26 @@ window.onload=function () {
 
         tis1.on("mouseover", function () {
             if (!loaded) {
-                card1.load("框架,html");
+                card1.load("框架.html");
                 loaded = true;
             }
+            card1.slidedown();
 
         })
+        tis2.on("mouseout",function(){
+           card1.slideup();
+               })
+        tis2.on("mouseover", function () {
+            if (!loaded) {
+                card2.load("进阶之路.html");
+                loaded = true;
+            }
+            card1.slidedown();
+
+        });
+        tis2.on("mouseout",function(){
+           card2.slideup();
+               });
     })
 }
 
