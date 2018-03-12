@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2572154076,3829551707&fm=27&gp=0.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>常用的前端框架</h1>
+    <p>Bootstrap、Jquery、Aue.js、Angular.js、React</p>
+</div>
+</body>
+</html>
